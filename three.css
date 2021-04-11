@@ -5,7 +5,7 @@ Copyright 2021 (C) Heksagon (https://www.heksagon.net/)
 Licensed under MIT (https://github.com/heksagonnet/three/blob/main/LICENSE)
 ========================================================================== */
 html {
-    font-family: 'Roboto', sans-serif, 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
 }
 /* ==========================================================================
@@ -39,7 +39,6 @@ Color Themes For Products
     font-size: 4rem;
 }		
 .subtitle{
-    font-family: 'Lato', sans-serif;
     color: white;
     font-size: 1.2rem;
 }		
