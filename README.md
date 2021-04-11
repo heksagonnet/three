@@ -11,8 +11,8 @@ Three is a **simple ecommerce website template** that employs the implementation
 ---
 ## Preview
 <p align="center">
-  <kbd><img width=600px src="1.png" alt="Preview" /></kbd>
-  <kbd><img width=153px src="2.png" alt="Preview in Mobile" /></kbd>
+  <kbd><img width=600px src="/1.png" alt="Preview" /></kbd>
+  <kbd><img width=153px src="/2.png" alt="Preview in Mobile" /></kbd>
 </p>
 
 ---
