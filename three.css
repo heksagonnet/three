@@ -64,7 +64,7 @@ section{
 Product 1 Image URL & Styling
 ========================================================================== */ 		
 #product-1 {
-    background: url(/1.webp);
+    background: url(1.webp);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -80,7 +80,7 @@ Product 1 Image URL & Styling
 Product 2 Image URL & Styling
 ========================================================================== */ 		
 #product-2 {
-    background: url(/2.webp);
+    background: url(2.webp);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -96,7 +96,7 @@ Product 2 Image URL & Styling
 Product 3 Image URL & Styling
 ========================================================================== */		
 #product-3 {
-    background: url(/3.webp);
+    background: url(3.webp);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
