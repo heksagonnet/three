@@ -47,7 +47,7 @@ Color Themes For Products
     background: linear-gradient(52deg, #55425c 0%, #20222E 71%);
 }
 .hero{
-    background: url(hero.webp), rgba(0, 0, 0, 0.424);
+    background: url(/three/hero.webp), rgba(0, 0, 0, 0.424);
     background-blend-mode:darken;
     background-position: center;
     background-repeat: no-repeat;
@@ -64,7 +64,7 @@ section{
 Product 1 Image URL & Styling
 ========================================================================== */ 		
 #product-1 {
-    background: url(/three/3.webp);
+    background: url(/three/1.webp);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -80,7 +80,7 @@ Product 1 Image URL & Styling
 Product 2 Image URL & Styling
 ========================================================================== */ 		
 #product-2 {
-    background: url(/three/hero.webp);
+    background: url(/three/2.webp);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
