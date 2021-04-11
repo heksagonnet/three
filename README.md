@@ -18,7 +18,7 @@ Three is a **simple ecommerce website template** that employs the implementation
 ---
 ## Performance (Lighthouse Report)
 
-[Click here to check out the result](https://googlechrome.github.io/lighthouse/viewer/?gist=e334ae70afa2e602a118b22f62640932)
+[Click here to check out the result](https://googlechrome.github.io/lighthouse/viewer/?gist=86a809af1f2a4b24c8e82374d265915e)
 
 To keep it optimized, in the server that you choose to host, have a suitable caching policy and properly sized images.
 
