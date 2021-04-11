@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/* ==========================================================================
+Three | Version 1.0 (https://github.com/heksagonnet/three)
+Copyright 2021 (C) Heksagon (https://www.heksagon.net/)
+Licensed under MIT (https://github.com/heksagonnet/three/blob/main/LICENSE)
+========================================================================== */
+html {
+    font-family: 'Roboto', sans-serif, 'Lato', sans-serif;
+    scroll-behavior: smooth;
+}
+/* ==========================================================================
+Color Themes For Products
+========================================================================== */ 		
+:root{
+    --product-1:#fbff00;
+    --product-2:hotpink;
+    --product-3:lightgreen;
+    --theme: #d2a6ff;
+}
+.navbar{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+.navbar-brand i{
+    font-size: 1.3em;
+}		
+.va {
+    padding: 10vh 2em;
+    display: flex;
+    align-items: center;
+}
+.label {
+    color: white;
+}
+.title {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 800;
+    font-size: 4rem;
+}		
+.subtitle{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 1.2rem;
+}		
+.cta {
+    background: linear-gradient(52deg, #55425c 0%, #20222E 71%);
+}
+.hero{
+    background: url(hero.webp), rgba(0, 0, 0, 0.424);
+    background-blend-mode:darken;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+hr.content-divider {
+    max-width: 6em;
+    height: 0.3em;
+}
+section{
+    height: 100vh;
+}
+/* ==========================================================================
+Product 1 Image URL & Styling
+========================================================================== */ 		
+#product-1 {
+    background: url(/1.webp);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#product-1 hr {
+    background: var(--product-1);
+}
+#product-1 .column a{
+    background-color: var(--product-1) !important;
+}
+/* ==========================================================================
+Product 2 Image URL & Styling
+========================================================================== */ 		
+#product-2 {
+    background: url(/2.webp);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#product-2 hr {
+    background: var(--product-2);
+}
+#product-2 .column a{
+    background-color: var(--product-2) !important;
+}
+/* ==========================================================================
+Product 3 Image URL & Styling
+========================================================================== */		
+#product-3 {
+    background: url(/3.webp);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#product-3 hr {
+    background: var(--product-3);
+}
+#product-3 .column a{
+    background-color: var(--product-3) !important;
+}
+
+footer {
+    color: white;
+    background: rgb(14, 14, 14) !important;
+}
+
+footer strong {
+    color: var(--theme);
+}
+
+a {
+    color: var(--theme);
+}

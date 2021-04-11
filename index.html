@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top" lang="en">
+
+<head>
+<!--==========================================================================
+	Head Section
+===========================================================================-->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Three</title>
+	<meta name="description" content="Three is a free template for an eCommerce Website">
+	<link rel="icon" href="favicon.svg" type="image/svg" sizes="16x16">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+	<link rel="preload stylesheet" type="text/css" href="three.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="preload stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap">
+	<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
+</head>
+
+<body>
+<!--==========================================================================
+	Start Navigation Section
+===========================================================================-->	
+	<nav class="navbar is-light is-fixed-top" role="navigation" aria-label="main navigation">
+		<div class="navbar-brand">
+			<a class="navbar-item" href="/">
+				<img src="/favicon.svg" width="40" height="40" alt="Home">Three Template
+			</a>
+			<a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false"> <span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+			</a>
+			<a class="navbar-item modal-button" data-target="modal-id"><i class="fas fa-shopping-cart"></i></a>
+			<div id="modal-id" class="modal modal-fx-fadeInScale">
+				<div class="modal-background"></div>
+				<div class="modal-card">
+					<header class="modal-card-head">
+						<p class="modal-card-title">Your Cart</p>
+						<button class="modal-button-close delete" aria-label="close"></button>
+					</header>
+					<section class="modal-card-body has-text-centered p-6">Add your eCommerce platform of choice. Read more about it<a target="_blank" rel="noopener" href="https://www.heksagon.net/entrepreneurship/3-ways-to-build-an-ecommerce-website/"> here.</a>
+					</section>
+				</div>
+			</div>
+		</div>
+		<div class="navbar-menu" id="navMenu">
+			<div class="navbar-end"> 
+				<a href="#product-1" class="navbar-item">
+              		Product 1
+            	</a>
+				<a href="#product-2" class="navbar-item">
+                	Product 2
+            	</a>
+				<a href="#product-3" class="navbar-item">
+                	Product 3
+            	</a>
+				<a href="#subscribe" class="navbar-item">
+					Subscribe
+				</a>
+			</div>
+		</div>
+	</nav>
+<!--==========================================================================
+	End Navigation Section
+===========================================================================-->
+
+<!--==========================================================================
+	Start Hero Section
+===========================================================================-->
+	<section class="hero is-medium">
+		<div class="hero-body">
+			<div class="container">
+				<h1 class="title is-1 ">Welcome to your shop!</h1>
+				<h2 class="subtitle"><div id="app"></div></h2>
+				<div class="columns">
+					<div class="column is-1">
+						<a class="button is-success is-outlined" href="#"><i class="fab fa-whatsapp"></i></a>
+					</div>
+					<div class="column is-1">
+						<a class="button is-danger is-outlined" href="#"><i class="fab fa-instagram"></i></a>
+					</div>
+					<div class="column is-1">
+						<a class="button is-link is-outlined" href="#"><i class="fab fa-twitter"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!--==========================================================================
+	End Hero Section
+===========================================================================-->
+
+<!--==========================================================================
+	Start Product 1 Section
+===========================================================================-->
+	<section id="product-1" class="hero is-large ">
+		<div class="hero-body">
+			<div class="container">
+				<div class="columns is-1-desktop is-2-tablet is-3-mobile">
+					<div class="column is-6 is-offset-6">
+						<h1 data-aos="zoom-in" class="title is-1 ">Product 1</h1>
+						<hr class="content-divider">
+						<h2 data-aos="zoom-in" class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit explicabo amet magni illum eum voluptate! Eveniet voluptatem nam magnam necessitatibus.</h2>
+						<a class="button is-rounded is-white modal-button" data-target="modal-id">Add to Cart&ensp;<i class="fas fa-plus"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!--==========================================================================
+	End Product 1 Section
+===========================================================================-->
+
+<!--==========================================================================
+	Start Product 2 Section
+===========================================================================-->
+	<section id="product-2" class="hero is-large ">
+		<div class="hero-body">
+			<div class="container">
+				<div class="columns">
+					<div class="column is-6">
+						<h1 data-aos="zoom-in" class="title is-1 ">Product 2</h1>
+						<hr class="content-divider">
+						<h2 data-aos="zoom-in" class="subtitle">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque veritatis sequi natus minima distinctio ullam deleniti quasi quisquam autem deserunt.</h2>
+						<a class="button is-white is-rounded modal-button" data-target="modal-id">Add to Cart&ensp;<i class="fas fa-plus"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!--==========================================================================
+	End Product 2 Section
+===========================================================================-->
+
+<!--==========================================================================
+	Start Product 3 Section
+===========================================================================-->
+	<section id="product-3" class="hero is-large ">
+		<div class="hero-body">
+			<div class="container">
+				<div class="columns">
+					<div class="column is-6 is-offset-6">
+						<h1 data-aos="zoom-in" class="title is-1 ">Product 3</h1>
+						<hr class="content-divider">
+						<h2 data-aos="zoom-in" class="subtitle">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure minus nam necessitatibus neque in perferendis eveniet dolorum assumenda dolores accusamus.</h2>
+						<a class="button is-white is-rounded modal-button" data-target="modal-id">Add to Cart&ensp;<i class="fas fa-plus"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!--==========================================================================
+	End Product 3 Section
+===========================================================================-->
+
+<!--==========================================================================
+	Start Subscription Form Section
+===========================================================================-->
+	<div class="cta va">
+		<div id="subscribe" class="container">
+			<div class="columns">
+				<div class="column is-6">
+					<h1 class="title is-1 ">Subscribe</h1>
+					<hr class="content-divider">
+					<h2 class="subtitle">Here is a subscription form. To receive submissions, you can register for a free account at <a target="_blank" rel="noopener" href="https://formspree.io/">Formspree</a> or <a target="_blank" rel="noopener" href="https://tinyletter.com/">Tiny Letter</a> and replace your unique link in the HTML code.</h2>
+				</div>
+				<div class="column is-6">
+					<form action="{{Replace your formspree link here}}" method="POST">
+						<div class="field">
+							<label class="label">Name</label>
+							<div class="control">
+								<input class="input is-medium" type="text" placeholder="Your Name Here">
+							</div>
+						</div>
+						<br>
+						<div class="field">
+							<label class="label">Email</label>
+							<div class="control">
+								<input required class="input is-medium" type="email" placeholder="your@email.com">
+							</div>
+						</div>
+						<br>
+						<div class="field is-grouped">
+							<div class="control">
+								<button type="submit" class="button is-white is-outlined">Submit</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+<!--==========================================================================
+	End Subscription Form Section
+===========================================================================-->	
+</body>
+<!--==========================================================================
+	Start Footer Section
+===========================================================================-->
+<footer class="footer">
+	<div class="content has-text-centered">
+		<p>A template called <strong>Three</strong> by <a target="_blank" rel="noopener" href="https://www.heksagon.net">Heksagon</a>
+		</p>
+		<div class="made-by-bulma">
+			<a href="https://bulma.io" target="_blank" rel="noopener noreferrer">
+				<img loading=lazy src="https://bulma.io/images/made-with-bulma--white.png" alt="Made with Bulma" width="163" height="31">
+			</a>
+		</div> 
+		<a target="_blank" rel="noopener" href="https://www.heksagon.net"><strong><i>Your Company</i></strong></a> &copy; 2023</div>
+	
+	<script type="text/javascript" src="https://unpkg.com/typewriter-effect@2.3.1/dist/core.js"></script>
+	<script type="text/javascript" src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+	<script>
+		document.addEventListener('DOMContentLoaded', () => {
+		
+		const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+		
+		if ($navbarBurgers.length > 0) {
+		
+		  $navbarBurgers.forEach( el => {
+		    el.addEventListener('click', () => {
+		
+		      const target = el.dataset.target;
+		      const $target = document.getElementById(target);
+		
+		      el.classList.toggle('is-active');
+		      $target.classList.toggle('is-active');
+		
+		    });
+		  });
+		}
+		
+		});
+	</script>
+	<script>
+		var app = document.getElementById('app');
+		
+		var typewriter = new Typewriter(app, {
+		    loop: true
+		});
+		
+		typewriter.typeString('Hello! How are you?')
+		    .pauseFor(500)
+		    .deleteAll()
+		    .typeString('What type of product')
+		    .pauseFor(500)
+		    .deleteChars(7)
+		    .typeString('website do you want to build?')
+		    .pauseFor(500)
+		    .start();
+	</script>
+</footer>
+<!--==========================================================================
+	End Footer Section
+===========================================================================-->
+</html>
