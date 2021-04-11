@@ -64,7 +64,7 @@ section{
 Product 1 Image URL & Styling
 ========================================================================== */ 		
 #product-1 {
-    background: url(/three/1.webp);
+    background: url(/three/3.webp);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -80,7 +80,7 @@ Product 1 Image URL & Styling
 Product 2 Image URL & Styling
 ========================================================================== */ 		
 #product-2 {
-    background: url(/three/2.webp);
+    background: url(/three/hero.webp);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
