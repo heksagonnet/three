@@ -5,7 +5,6 @@ Copyright 2021 (C) Heksagon (https://www.heksagon.net/)
 Licensed under MIT (https://github.com/heksagonnet/three/blob/main/LICENSE)
 ========================================================================== */
 html {
-    font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
 }
 /* ==========================================================================
@@ -18,7 +17,6 @@ Color Themes For Products
     --theme: #d2a6ff;
 }
 .navbar{
-    font-family: 'Roboto', sans-serif;
     font-weight: 900;
 }
 .navbar-brand i{
@@ -33,7 +31,6 @@ Color Themes For Products
     color: white;
 }
 .title {
-    font-family: 'Roboto', sans-serif;
     color: white;
     font-weight: 800;
     font-size: 4rem;
