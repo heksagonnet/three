@@ -54,7 +54,7 @@ section{
     background: linear-gradient(52deg, #55425c 0%, #20222E 71%);
 }
 .hero{
- /*   background: url(/three/hero.webp), rgba(0, 0, 0, 0.424);*/
+    background: url(/three/hero.webp), rgba(0, 0, 0, 0.424);
     background-blend-mode:darken;
     background-position: center;
     background-repeat: no-repeat;
@@ -68,7 +68,7 @@ hr.content-divider {
 Product 1 Image URL & Styling
 ========================================================================== */ 		
 #product-1 {
-/*    background: url(/three/1.webp); */
+    background: url(/three/1.webp); 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -84,7 +84,7 @@ Product 1 Image URL & Styling
 Product 2 Image URL & Styling
 ========================================================================== */ 		
 #product-2 {
-/*    background: url(/three/2.webp); */
+    background: url(/three/2.webp); 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -100,7 +100,7 @@ Product 2 Image URL & Styling
 Product 3 Image URL & Styling
 ========================================================================== */		
 #product-3 {
-/*    background: url(/three/3.webp);*/
+    background: url(/three/3.webp);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
