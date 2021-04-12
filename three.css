@@ -17,8 +17,11 @@ Color Themes For Products
     --product-3:lightgreen;
     --theme: #d2a6ff;
 }
+body{
+    max-height: 100vh;
+}
 section{
-    height: 60em;
+    height: 100vh;
 }
 .navbar{
     font-family: 'Roboto', sans-serif;
