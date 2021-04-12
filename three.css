@@ -20,16 +20,9 @@ Color Themes For Products
 body{
     height: 100% !important;
     max-height: 100vh !important;  
-    padding: 0 !important;
-    margin: 0 !important;
 }
 section{
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 99.9vh;
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
+    height: 100vh;
 }
 .navbar{
     font-family: 'Roboto', sans-serif;
@@ -61,7 +54,7 @@ section{
     background: linear-gradient(52deg, #55425c 0%, #20222E 71%);
 }
 .hero{
-    background: /*url(/three/hero.webp),*/ rgba(0, 0, 0, 0.424);
+ /*   background: url(/three/hero.webp), rgba(0, 0, 0, 0.424);*/
     background-blend-mode:darken;
     background-position: center;
     background-repeat: no-repeat;
