@@ -196,67 +196,68 @@
 <!--==========================================================================
 	End Subscription Form Section
 ===========================================================================-->	
-</body>
+
 <!--==========================================================================
 	Start Footer Section
 ===========================================================================-->
-<footer class="footer">
-	<div class="content has-text-centered">
-		<p>A template called <strong>Three</strong> by <a target="_blank" rel="noopener" href="https://www.heksagon.net">Heksagon</a>
-		</p>
-		<div class="made-by-bulma">
-			<a href="https://bulma.io" target="_blank" rel="noopener noreferrer">
-				<img loading=lazy src="https://bulma.io/images/made-with-bulma--white.png" alt="Made with Bulma" width="163" height="31">
-			</a>
-		</div> 
-		<a target="_blank" rel="noopener" href="https://www.heksagon.net"><strong><i>Your Company</i></strong></a> &copy; 2023</div>
-	
-	<script async type="text/javascript" src="https://unpkg.com/typewriter-effect@2.3.1/dist/core.js"></script>
-	<script async type="text/javascript" src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"></script>
-	<script async src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-	<script>
-		AOS.init();
-	</script>
-	<script>
-		document.addEventListener('DOMContentLoaded', () => {
+	<footer class="footer">
+		<div class="content has-text-centered">
+			<p>A template called <strong>Three</strong> by <a target="_blank" rel="noopener" href="https://www.heksagon.net">Heksagon</a>
+			</p>
+			<div class="made-by-bulma">
+				<a href="https://bulma.io" target="_blank" rel="noopener noreferrer">
+					<img loading=lazy src="https://bulma.io/images/made-with-bulma--white.png" alt="Made with Bulma" width="163" height="31">
+				</a>
+			</div> 
+			<a target="_blank" rel="noopener" href="https://www.heksagon.net"><strong><i>Your Company</i></strong></a> &copy; 2023</div>
 		
-		const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-		
-		if ($navbarBurgers.length > 0) {
-		
-		  $navbarBurgers.forEach( el => {
-		    el.addEventListener('click', () => {
-		
-		      const target = el.dataset.target;
-		      const $target = document.getElementById(target);
-		
-		      el.classList.toggle('is-active');
-		      $target.classList.toggle('is-active');
-		
-		    });
-		  });
-		}
-		
-		});
-	</script>
-	<script>
-		var app = document.getElementById('app');
-		
-		var typewriter = new Typewriter(app, {
-		    loop: true
-		});
-		
-		typewriter.typeString('Hello! How are you?')
-		    .pauseFor(500)
-		    .deleteAll()
-		    .typeString('What type of product')
-		    .pauseFor(500)
-		    .deleteChars(7)
-		    .typeString('website do you want to build?')
-		    .pauseFor(500)
-		    .start();
-	</script>
-</footer>
+		<script async type="text/javascript" src="https://unpkg.com/typewriter-effect@2.3.1/dist/core.js"></script>
+		<script async type="text/javascript" src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"></script>
+		<script async src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
+		<script>
+			document.addEventListener('DOMContentLoaded', () => {
+			
+			const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+			
+			if ($navbarBurgers.length > 0) {
+			
+			$navbarBurgers.forEach( el => {
+				el.addEventListener('click', () => {
+			
+				const target = el.dataset.target;
+				const $target = document.getElementById(target);
+			
+				el.classList.toggle('is-active');
+				$target.classList.toggle('is-active');
+			
+				});
+			});
+			}
+			
+			});
+		</script>
+		<script>
+			var app = document.getElementById('app');
+			
+			var typewriter = new Typewriter(app, {
+				loop: true
+			});
+			
+			typewriter.typeString('Hello! How are you?')
+				.pauseFor(500)
+				.deleteAll()
+				.typeString('What type of product')
+				.pauseFor(500)
+				.deleteChars(7)
+				.typeString('website do you want to build?')
+				.pauseFor(500)
+				.start();
+		</script>
+	</footer>
+</body>
 <!--==========================================================================
 	End Footer Section
 ===========================================================================-->
