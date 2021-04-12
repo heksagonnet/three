@@ -18,10 +18,11 @@ Color Themes For Products
     --theme: #d2a6ff;
 }
 body{
-    max-height: 100vh;
+    height: 100% !important;
+    max-height: 100vh !important;
 }
 section{
-    height: 100vh;
+    height: 99%;
 }
 .navbar{
     font-family: 'Roboto', sans-serif;
