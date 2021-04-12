@@ -24,7 +24,13 @@ body{
     margin: 0 !important;
 }
 section{
-    height: 99vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 99.9vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
 }
 .navbar{
     font-family: 'Roboto', sans-serif;
