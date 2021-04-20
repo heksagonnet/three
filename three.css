@@ -125,3 +125,9 @@ footer strong {
 a {
     color: var(--theme);
 }
+@media only screen and (max-device-width: 1366px) {
+    section {
+      background-attachment: scroll;
+    }
+  }
+  
