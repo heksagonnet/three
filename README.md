@@ -33,13 +33,13 @@ Your support is greatly appreciated 😊
 
 ---
 ## Installation
-Check out our [installation guide here](https://www.heksagon.net/free-template/three/#installation-)
+Check out our [installation guide here](https://www.heksagon.net/template/three/#installation-)
 
-If you encounter any issues or have any questions with the template, [comment here (click here and scroll down to the comment section of this page)](https://www.heksagon.net/free-template/three/#graphcomment) or [contact us](https://www.heksagon.net/contact) directly.
+If you encounter any issues or have any questions with the template, [comment here (click here and scroll down to the comment section of this page)](https://www.heksagon.net/template/three/#graphcomment) or [contact us](https://www.heksagon.net/contact) directly.
 
 ---
 ## Template Guide
-Check out the guide to [customizing this template here.](https://www.heksagon.net/free-template/three/#template-guide)
+Check out the guide to [customizing this template here.](https://www.heksagon.net/template/three/#template-guide)
 
 ---
 ## Custom Installation
